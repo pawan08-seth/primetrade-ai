@@ -1,4 +1,4 @@
-# Primetrade_AI 🔐
+# Primetrade AI – Secure FastAPI Backend 🔐
 
 A **production-ready FastAPI backend** implementing JWT authentication, Role-Based Access Control (RBAC), and secure CRUD operations using SQLAlchemy and SQLite. Designed to demonstrate real-world backend engineering concepts including authentication, authorization, dependency injection, database modeling, and secure API design.
 
@@ -13,21 +13,28 @@ A **production-ready FastAPI backend** implementing JWT authentication, Role-Bas
 - **Dependency Injection** — Clean, modular FastAPI dependency structure for auth and DB sessions
 - **Modular Architecture** — Organized into separate modules for Auth, API routes, Models, and Database
 - **Interactive API Docs** — Auto-generated Swagger UI at `/docs` and ReDoc at `/redoc`
+- 
+## 🔒 Security Features
+
+- JWT-based authentication
+- Password hashing using bcrypt
+- Role-based route protection
+- Token validation and expiry checks
+- Protected CRUD endpoints
 
 ---
 
 ## 🗂️ Project Structure
 
 ```
-Primetrade_AI/
-├── main.py           # FastAPI app entry point, router registration
-├── Auth/
-│   └── Auth_routes.py    # Authentication routes (register, login, token)
+primetrade-ai/
+├── main.py
+├── auth/
 ├── api/
-│   └── api.py            # Protected CRUD API routes
-├── Models/               # SQLAlchemy ORM models & Pydantic schemas
-├── Database/             # Database session, engine, and base setup
-└── requirements.txt      # Python dependencies
+├── models/
+├── database/
+├── requirements.txt
+└── README.md
 ```
 
 ---
@@ -43,8 +50,8 @@ Primetrade_AI/
 
 ```bash
 # Clone the repository
-git clone https://github.com/adarshbaghel612/Primetrade_AI.git
-cd Primetrade_AI
+git clone https://github.com/pawan08-seth/primetrade-ai.git
+cd primetrade-ai
 
 # Create and activate a virtual environment
 python -m venv venv
@@ -143,3 +150,11 @@ This project is open-source. See the [LICENSE](LICENSE) file for details.
 ---
 
 > Built with ❤️ to demonstrate production-grade backend patterns using FastAPI.
+>
+## Screenshots
+
+### Swagger UI
+(Add screenshot later)
+
+### Authentication Endpoint
+(Add screenshot later)
