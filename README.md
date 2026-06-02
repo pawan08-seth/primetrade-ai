@@ -154,7 +154,7 @@ This project is open-source. See the [LICENSE](LICENSE) file for details.
 ## Screenshots
 
 ### Swagger UI
-(Add screenshot later)
+![Swagger UI](screenshots/swagger-ui.png.png)
 
 ### Authentication Endpoint
 (Add screenshot later)
